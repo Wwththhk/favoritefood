@@ -78,7 +78,6 @@ body{
 
 .card-title {
   position: absolute;
-  color: #ff6600;
   bottom: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.8);
@@ -91,6 +90,18 @@ body{
 .card-title h2 {
   font-size: 24px;
   margin: 0;
+}
+
+.chilihotdog {
+  color: #ff6600;
+}
+
+.shakeshakeburger {
+  color: #17a651;
+}
+
+.superiorpizza {
+  color: #0075ff;
 }
 
 .card-contents {
@@ -111,6 +122,16 @@ body{
   color: #ff6600;
 }
 
+.shakeshakeburger-bold {
+  font-weight: bold;
+  color: #17a651;
+}
+
+.superiorpizza-bold {
+  font-weight: bold;
+  color: #0075ff;
+}
+
 .card-hashtag {
   display: flex;
   gap: 6px;
@@ -121,15 +142,26 @@ body{
   border-bottom-right-radius: 12px;
 }
 
-.hashtag {
+.card-hashtag a {
   width: auto;
   padding: 2px 8px 4px 8px;
   font-size: 12px;
-  background-color: #ff6600;
   border-radius: 48px;
   color: white;
   line-height: 16px;
   text-decoration: none;
+}
+
+.hotdog-hashtag {
+  background-color: #ff6600;
+}
+
+.burger-hashtag {
+  background-color: #17a651;
+}
+
+.pizza-hashtag {
+  background-color: #0075ff;
 }
 
 .copyright {
