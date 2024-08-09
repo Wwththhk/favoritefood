@@ -4,14 +4,41 @@
 */
 body{ 
   margin: unset;
+  background-color: #d9d9d9;
 }
 
 :root {
   font-family: "arial";
 }
 
+.l_wrapper {
+  max-width: 960px;
+  margin: 0 auto; 
+  border: 1px solid black;
+}
+
 .header {
   box-shadow: inset 0 0 20px red;
+  background-color: #f4f4f4;
+}
+
+.header-inside {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-inside img {
+  width: 124px;
+  height: 100px;
+}
+
+.header-title {
+  color: #ff6600;
+  font-size: 24px;
+  margin: 0;
+  padding: 66px 0;
 }
 
 .contents {
