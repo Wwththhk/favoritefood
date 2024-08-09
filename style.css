@@ -2,6 +2,7 @@
  * 한글 폰트 설정
   font-family: "Noto Sans KR", sans-serif;
 */
+
 body{ 
   margin: unset;
   background-color: #d9d9d9;
@@ -61,8 +62,38 @@ body{
   display: flex;
 }
 
+.card-cover-wrapper {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
 .card-cover {
   width: 100%;
+}
+
+.card-title {
+  position: absolute;
+  color: #ff6600;
+  bottom: 4px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: auto;
+  margin: 0;
+  padding: 10px 20px;
+  border-top-right-radius: 12px;
+}
+
+.card-title h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.card-contents p {
+  color: #666;
+  line-height: 140%;
+  font-size: 14px;
+  padding: 20px;
 }
 
 .footer {
