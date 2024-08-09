@@ -17,13 +17,25 @@ body{
   border: 1px solid black;
 }
 
+.l_row {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.l_col {
+  width: calc(100% / 3);
+  margin-top: 30px;
+  
+}
 .header {
-  box-shadow: inset 0 0 20px red;
   background-color: #f4f4f4;
 }
 
 .header-inside {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,6 +55,14 @@ body{
 
 .contents {
   box-shadow: inset 0 0 20px blue;
+}
+
+.container {
+  display: flex;
+}
+
+.card-cover {
+  width: 100%;
 }
 
 .footer {
