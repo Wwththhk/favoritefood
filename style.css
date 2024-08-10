@@ -140,6 +140,8 @@ body{
   padding: 26px 0 26px 18px;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
+  font-weight: normal;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .card-hashtag a {
@@ -172,4 +174,31 @@ body{
   color: #aaa;
   font-size: 12px;
   letter-spacing: 0.24em;
+}
+
+@media (max-width: 600px) {
+  .header-inside {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .header-inside img {
+    padding-top: 40px;
+  }
+
+  .header-title {
+    padding: 16px 0 40px 0;
+  }
+
+  .l_row {
+    flex-wrap: wrap;
+    gap: 0;
+
+  }
+
+  .l_col_mobile_12_12 {
+    width: 100%;
+    padding: 30px 30px 0 30px;
+    margin: 0;
+  }
 }
